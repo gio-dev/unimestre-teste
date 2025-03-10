@@ -17,9 +17,12 @@ Tecnologias: Laravel 12, VueJs 3, Inertia, Breeze, SQLite/Mysql, Docker, TypeScr
 2. `docker-compose up -d` (caso tenha o Docker Compose instalado) ou `composer run dev` (caso tenha o PHP e NPM instalado em sua máquina)
 
 3.1 Pelo Docker:
+
     1. Acesse o bash: `docker-compose exec app bash`
-    2. Execute as migrações: `php artisan migrate`
-    3. Otimize a aplicação: `php artisan optimize`
+    
+4. Execute as migrações: `php artisan migrate`
+
+5. Otimize a aplicação: `php artisan optimize`
 
 ## Explicações
 
